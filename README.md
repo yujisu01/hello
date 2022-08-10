@@ -17,7 +17,7 @@
 `https://gmlwjd9405.github.io/2018/10/29/web-application-structure.html 참고`<br>
 `톰캣이슈: cmd-> netstat -a -o -> taskkill /f /pid 4548 (8080에 해당하는 포트 죽이기)`<br>
 `엑세스 거부시-> 관리자권한으로 진행`<br>
-`home.jsp의 작동원리 참고 : https://gabrielyj.tistory.com/147`<br>
+`home.jsp의 작동원리 참고 : https://gabrielyj.tistory.com/147`<br> [GitHub](http://github.com)
 `(1) web.xml실행->servlet-context.xml이 요청낚아챔`<br>
 `(2) servlet-context.xml에서 어노테이션 사용여부및 위치를 확인후 값전달함.`<br>
 `(3) 컨트롤러의 @(어노테이션)확인후, 매핑값인 "/" home메소드 실행`<br>
