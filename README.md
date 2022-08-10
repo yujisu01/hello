@@ -16,11 +16,11 @@ pom.xml 에 mssql-jdbc 설치<br></br>
 context-datasource.xml 에 mssql-jdbc 설정<br></br>
 EgovAbstractMapper 를 통해 쿼리 가능하도록 context-****.xml 파일 설정 (spring-mybatis 를 활용하는 전자정부프레임워크 DAO 개체)<br></br>
 
-**:heavy_check_mark: 진행상태 **
+:heavy_check_mark: **진행상태**
 
 | check      | Description                                                                                                                       |
 | ---------- | -----------------------------------------------------------------------------------------------------------------------------     |
-| [X]        | eclipse 2021-03 버전 설치                                                                                                         |
+|- [x]        | eclipse 2021-03 버전 설치                                                                                                         |
 | [X]        | jdk8 이상 설치                                                                                                                    |
 | [X]        | eclipse 에 JAVA PROJECT 추가                                                                                                      |
 | [X]        | 추가된 프로젝트에 build tool :: maven 설정                                                                                        |
