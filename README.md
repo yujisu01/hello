@@ -10,7 +10,7 @@ TOMCAT 서버 추가(TOMCAT 9, 10) <br></br>
 index.jsp 추가하여 페이지 표시 유무 확인<br></br>
 web.xml 의 dispatcherServlet 설정 및 contextConfigureLocation 설정<br></br>
 Controller - service - impl  형태의 백엔드 프로그램 작성<br></br>
-{: .notice} 
+.notice--infobox
 해당 주소에 대해 표시여부 확인<br></br>
 MSSQL 설치 <br></br>
 pom.xml 에 mssql-jdbc 설치<br></br>
