@@ -37,8 +37,8 @@
 `(2) pom.xml의 dependency는 맞게 주입됨. 로그인문제로 오류`<br>
 `(3) MSSQL Window로 접속한뒤, 보안폴더->로그인->sa계정속성->암호지정후, 암호강제적용 체크해제->상태 에서 로그인 사용안함->사용으로 변경함`<br>
 `(4) 이클립스의 show view-> Data Source Explorer->Database Connections->SQL Server->new->Database는 현재 testDB가 존재하므로,해당 DB입력해줌-> Username(jisu), pwd(MSSQL에서 설정한것)->Test Connections->ping succeed 나오면 Finish`<br>
-[해당 페이지 참고(로그인실패)](https://blog.edit.kr/entry/mssql-%EC%97%90%EC%84%9C-sa-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%8B%A4%ED%8C%A8-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95)
-**해당 MSSQL Server 재구동하려면 'SqlServer구성관리자' 에서 해당서버 다시 시작** <br></br>
+[해당 페이지 참고(로그인실패시)](https://blog.edit.kr/entry/mssql-%EC%97%90%EC%84%9C-sa-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%8B%A4%ED%8C%A8-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95) <br>
+*MSSQL Server 재구동하려면 'SqlServer구성관리자' 에서 해당서버 다시 시작* <br></br>
 ##### 14.context-datasource.xml 에 mssql-jdbc 설정<br></br>
 ##### 15.EgovAbstractMapper 를 통해 쿼리 가능하도록 context-****.xml 파일 설정 (spring-mybatis 를 활용하는 전자정부프레임워크 DAO 개체)<br></br>
 
