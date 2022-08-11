@@ -68,4 +68,5 @@
 
 
 ----------------------------------------
-<img src="깃방법.jpg" width="700">
+<
+![깃방법](https://user-images.githubusercontent.com/78129881/184093944-aeba840d-c469-4dd0-8d04-db6c8506f647.jpg)
