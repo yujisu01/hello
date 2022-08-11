@@ -26,8 +26,8 @@
 ##### 10.Controller - service - impl  형태의 백엔드 프로그램 작성<br></br>
 ##### 11.해당 주소에 대해 표시여부 확인<br></br>
 ##### 12.MSSQL 설치 <br></br>
-`1. MSSQL : [해당 페이지참고](https://jjanggu1612.tistory.com/entry/MSSQL-%EC%84%A4%EC%B9%98)`
-`2. SMMS : [다운로드 받은곳](https://docs.microsoft.com/ko-kr/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver15)`
+`1. MSSQL : `[해당 페이지참고](https://jjanggu1612.tistory.com/entry/MSSQL-%EC%84%A4%EC%B9%98)<br>
+`2. SMMS : `[다운로드 받은곳](https://docs.microsoft.com/ko-kr/sql/ssms/download-sql-server-management-studio-ssms?redirectedfrom=MSDN&view=sql-server-ver15)<br></br>
 ##### 13.pom.xml 에 mssql-jdbc 설치<br></br>
 ##### 14.context-datasource.xml 에 mssql-jdbc 설정<br></br>
 ##### 15.EgovAbstractMapper 를 통해 쿼리 가능하도록 context-****.xml 파일 설정 (spring-mybatis 를 활용하는 전자정부프레임워크 DAO 개체)<br></br>
