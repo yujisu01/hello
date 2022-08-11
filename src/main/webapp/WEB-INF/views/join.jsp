@@ -8,5 +8,8 @@
 </head>
 <body>
 	<h1>회원가입</h1>
+	<section id="container">
+		
+	</section>
 </body>
 </html>
