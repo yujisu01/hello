@@ -44,6 +44,9 @@
 [해당 페이지 참고(로그인실패시)](https://blog.edit.kr/entry/mssql-%EC%97%90%EC%84%9C-sa-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%EC%8B%A4%ED%8C%A8-%EC%98%A4%EB%A5%98-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95) <br>
 *MSSQL Server 재구동하려면 'SqlServer구성관리자' 에서 해당서버 다시 시작* <br></br>
 ##### 14.context-datasource.xml 에 mssql-jdbc 설정<br></br>
+```
+(1) web.xml에 classpath*:/config/context*.xml [설정시 참고-전체적으로 여기 보고 따라함](https://jdevil.tistory.com/9)<br></br>
+```
 ##### 15.EgovAbstractMapper 를 통해 쿼리 가능하도록 context-****.xml 파일 설정 (spring-mybatis 를 활용하는 전자정부프레임워크 DAO 개체)<br></br>
 
  :mag: **진행상태**
