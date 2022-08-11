@@ -7,7 +7,7 @@
 ##### 2.jdk8 이상 설치<br>
 `jdk1.8.0_341, jre1.8.0_341 `<br></br>
 ##### 3.eclipse 에 JAVA PROJECT 추가<br></br>
-`project_01로 생성했다가, 망해서 hello 다시만듬 (`<br></br>
+`project_01로 생성했다가, 망해서 hello 다시만듬 ` [(폴더,패키지 위치 잘못 지정해서 망한 좋은예)](https://github.com/yujisu01/project_01)<br></br>
 ##### 4.추가된 프로젝트에 build tool :: maven 설정<br>
 `일반프로젝트-configure-convert maven project로 변경`<br></br>
 ##### 5.maven 의 pom.xml 을 통해 spring-mvc 4.3 버전 근처로 설치<br>
