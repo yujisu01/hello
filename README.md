@@ -83,5 +83,6 @@
 
 
 ----------------------------------------
-:mag: **깃허브 commit**
+:mag: **깃허브 commit** <br></br>  
+
 ![깃방법](https://user-images.githubusercontent.com/78129881/184093944-aeba840d-c469-4dd0-8d04-db6c8506f647.jpg)
