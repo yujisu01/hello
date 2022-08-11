@@ -67,5 +67,5 @@
 | [ ]        | EgovAbstractMapper 를 통해 쿼리 가능하도록 context-****.xml 파일 설정 (spring-mybatis 를 활용하는 전자정부프레임워크 DAO 개체)     |
 
 
-
-
+----------------------------------------
+<img src="깃방법.jpg" width="700">
