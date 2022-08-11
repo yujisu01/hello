@@ -1,4 +1,6 @@
-# Hello
+# Hello<br></br>
+
+ :mag: **진행과정**
 
 ##### 1.eclipse 2021-03 버전 설치<br>
 `2020-12 버전 설치 (utf-8 문제)` <br></br>
@@ -56,6 +58,9 @@
 **계속진행중** <br></br>
 ##### 15.EgovAbstractMapper 를 통해 쿼리 가능하도록 context-****.xml 파일 설정 (spring-mybatis 를 활용하는 전자정부프레임워크 DAO 개체)<br></br>
 
+
+-------------------------------------------------------------------
+
  :mag: **진행상태**
 
 | check                   | Description                                                                                                                        |
@@ -76,7 +81,7 @@
 | [ ]        | context-datasource.xml 에 mssql-jdbc 설정    **(진행중)**                                                                                      |
 | [ ]        | EgovAbstractMapper 를 통해 쿼리 가능하도록 context-****.xml 파일 설정 (spring-mybatis 를 활용하는 전자정부프레임워크 DAO 개체)     |
 
-<br></br><br></br>
-----------------------------------------<
-<
+
+----------------------------------------
+
 ![깃방법](https://user-images.githubusercontent.com/78129881/184093944-aeba840d-c469-4dd0-8d04-db6c8506f647.jpg)
