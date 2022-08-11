@@ -5,7 +5,10 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<!-- context의 환경설정 위치 -->
-		<param-value>/WEB-INF/spring/root-context.xml</param-value>
+		<param-value>
+			classpath*:/config/context-*.xml
+			/WEB-INF/spring/root-context.xml
+		</param-value>
 	</context-param>
 	
 	<!-- Creates the Spring Container shared by all Servlets and Filters -->

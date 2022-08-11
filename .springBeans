@@ -9,6 +9,8 @@
 	<configs>
 		<config>src/main/webapp/WEB-INF/spring/root-context.xml</config>
 		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
+		<config>src/main/resources/config/context-datasource.xml</config>
+		<config>src/main/resources/config/context-mybatis.xml</config>
 	</configs>
 	<autoconfigs>
 	</autoconfigs>
