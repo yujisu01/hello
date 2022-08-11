@@ -24,6 +24,8 @@
 `(4) servlet-context.xml에서 return값 'home'에다가 prefix, suffix를 붙여줌`<br>
 `(5) home.jsp가 실행이된다.`<br></br>
 ##### 10.Controller - service - impl  형태의 백엔드 프로그램 작성<br></br>
+`Controller, Service, Impl 클래스 작성은 이전에 개인프로젝트시 작성해놓은걸 많이 참고했다.(다만 MemberController는 따로 안만들고, MainController에 다 때려넣음)`
+[Service와 ServiceImpl 에 대한 설명](https://velog.io/@ruinak_4127/Service%EC%99%80-ServiceImpl) `요약하자면, Service라는 인터페이스는 부모클래스이고, ServiceImpl은 자식클래스이다. 부모를 상속받아 implement하는 구현체이다. 개념 알기!`<br></br>
 ##### 11.해당 주소에 대해 표시여부 확인<br></br>
 ##### 12.MSSQL 설치 <br></br>
 `1. MSSQL : `[해당 페이지참고](https://jjanggu1612.tistory.com/entry/MSSQL-%EC%84%A4%EC%B9%98)<br>
