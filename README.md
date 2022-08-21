@@ -65,7 +65,10 @@
 -> 아무것도 작성안해놔서 오류남.  
 -> memberMapper.xml 에 IMemberDAO에서 작성해준거 보고 select문 작성하고 다시 가동하니까 정상적으로 켜짐   
 -> http://localhost:8080/main  
- 
+(3)https://www.egovframe.go.kr/wiki/doku.php?id=egovframework:rte2:psl:dataaccess:mybatisguide 여기참고하는중인데  
+-> egovframework.rte 주입했더니, 2.7.0 jar파일없다고 어쩌구 오류뜸 (메이븐 업데이트 해도 동일 오류발생)  
+(Error reading file C:\Users\user\.m2\repository\egovframework\rte\egovframework.rte.psl.dataaccess\2.7.0\egovframework.rte.psl.dataaccess-2.7.0.jar  
+C:\Users\user\.m2\repository\egovframework\rte\egovframework.rte.psl.dataaccess\2.7.0\egovframework.rte.psl.dataaccess-2.7.0.jar (지정된 파일을 찾을 수 없습니다))  
 ```
 **진행중**
 
