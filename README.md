@@ -57,7 +57,17 @@
 [jdbc.properties 작성방법 참고](https://rosebay.tistory.com/113)<br></br>
 
 ##### 15.EgovAbstractMapper 를 통해 쿼리 가능하도록 context-****.xml 파일 설정 (spring-mybatis 를 활용하는 전자정부프레임워크 DAO 개체)<br></br>
-
+```
+(1) 오류: context-datasource.xml 에서 Could not resolve placeholder 'jdbc.driver' in value "${jdbc.driver}"  
+-> jdbc.properties에 입력한것들, context-datasource.xml의 dataSource에 그대로 적어줌. 그랬더니 일단 해결  
+(2) (2)  Error creating bean with name 'sqlSessionFactory' defined in file [C:\Users\user\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\hello\WEB-INF\classes\config\context-mybatis.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\user\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\hello\WEB-INF\classes\mappers\memberMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 1; 예기치 않은 파일의 끝입니다.  
+-> 임시로 작성해놨던 memberMapper.xml에서 오류 발생함  
+-> 아무것도 작성안해놔서 오류남.  
+-> memberMapper.xml 에 IMemberDAO에서 작성해준거 보고 select문 작성하고 다시 가동하니까 정상적으로 켜짐   
+-> http://localhost:8080/main  
+ 
+```
+**진행중**
 
 -------------------------------------------------------------------
 
@@ -78,8 +88,8 @@
 | :heavy_check_mark:(08/10)| 해당 주소에 대해 표시여부 확인                                                                                                      |
 | :heavy_check_mark:(08/11)| MSSQL 설치                                                                                                             |
 | :heavy_check_mark:(08/11)| pom.xml 에 mssql-jdbc 설치                                                                                                         |
-| [ ]        | context-datasource.xml 에 mssql-jdbc 설정    **(진행중)**                                                                                      |
-| [ ]        | EgovAbstractMapper 를 통해 쿼리 가능하도록 context-****.xml 파일 설정 (spring-mybatis 를 활용하는 전자정부프레임워크 DAO 개체)     |
+| :heavy_check_mark:(08/21)| context-datasource.xml 에 mssql-jdbc 설정                                                                                     |
+| [ ]        | EgovAbstractMapper 를 통해 쿼리 가능하도록 context-****.xml 파일 설정 (spring-mybatis 를 활용하는 전자정부프레임워크 DAO 개체)      |
 
 
 ----------------------------------------
