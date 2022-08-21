@@ -191,6 +191,11 @@
 		    <artifactId>mssql-jdbc</artifactId>
 		    <version>8.2.2.jre8</version>
 		</dependency>
+		<dependency>
+			<groupId>egovframework.rte</groupId>
+			<artifactId>egovframework.rte.psl.dataaccess</artifactId>
+			<version>2.7.0</version>
+		</dependency>
       
      </dependencies>
      
